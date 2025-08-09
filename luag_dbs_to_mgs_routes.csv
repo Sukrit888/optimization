@@ -1,0 +1,82 @@
+Sno,Route_id,from_station,to_station,Start_coordinates,Via_coordinates,End_coordinates,Distance,Duration,Time_slot,Route_description,Create_user,Create_date,Modified_user,Modified_date
+1,R01,cgs_harua,rameshwar,"27.1766701,78.0080745",,"27.1766701,78.0080745",49,76,anytime,"""CGS HARHUA RING ROAD RAJATALAB RING ROAD MOHANSARAI-  GT ROAD -RAMNAGAR ROAD -KODOPUR """,ritik,6/17/2024 13:50,NULL,6/17/2024 13:50
+2,R03,upsidc,sanchetna,"27.1766701,78.0080745",,"27.1766701,78.0080745",20,32,anytime,KARKHIYAON-PHOOLPUR- PINDRA - BABATPUR,ritik,6/17/2024 13:53,NULL,6/17/2024 13:53
+3,R04,cgs_harua,vishnu,"27.1766701,78.0080745",,"27.1766701,78.0080745",20,28,anytime,CGS - HARHUA RING ROAD  CHAURAHA - RING ROAD CHAUK RAJATALAB,ritik,6/17/2024 13:53,NULL,6/17/2024 13:53
+4,R05,cgs_harua,mirzamurad,"27.1766701,78.0080745",,"28.5671424,77.3685248",27,38,anytime,CGS - HARHUA RING ROAD  CHAURAHA - RING ROAD CHAUK RAJATALAB-ALLAHABAD ROAD -MIRZAMURAD ,ritik,6/17/2024 13:54,NULL,6/17/2024 13:54
+5,R06,cgs_harua,reliance_bp,"27.1766701,78.0080745",,"27.1766701,78.0080745",39,60,anytime,CGS - HARHUA RING ROAD  CHAURAHA - RING ROAD CHAUK RAJATALAB-ALLAHABAD ROAD -MIRZAMURAD- KACCHWA ,ritik,6/17/2024 13:55,NULL,6/17/2024 13:55
+6,R07,cgs_harua,cholapur,"27.1766701,78.0080745",,"27.1766701,78.0080745",14,22,anytime,CGS - HARHUA RING ROAD  CHAURAHA - RING ROAD CHAUK RAJATALAB-ALLAHABAD ROAD -MIRZAMURAD- KACCHWA ,ritik,6/17/2024 13:56,NULL,6/17/2024 13:56
+7,R08,cgs_harua,suresh,"27.1766701,78.0080745",,"27.1766701,78.0080745",42,78,anytime,CGS- HARHUA RING ROAD  CHAURAHA -RAJATALAB RING ROAD CAHUK-MOHANSARAI-TENGRA MORE -- AHRAURA ROAD ,ritik,6/17/2024 13:56,NULL,6/17/2024 13:56
+8,R09,cgs_harua,mansha,"27.1766701,78.0080745",,"27.1766701,78.0080745",22,34,anytime,CGS - HARHUA RING ROAD  CHAURAHA - RING ROAD CHAUK RAJATALAB -MOHANSARAI - RAJATALAB (NEAR GRAMODYOG  RAJATALAB),ritik,6/17/2024 13:57,NULL,6/17/2024 13:57
+9,R10,upsidc,lala_auto,"27.1766701,78.0080745",,"28.5671424,77.3685248",37,50,anytime,KARKHIYAON- RAGHUNATHPUR- BASANI -BADAGAON-KURU-KAPSETHI (TARAPUR),ritik,6/17/2024 13:57,NULL,6/17/2024 13:57
+10,R11,cgs_harua,reliance_bp_harua,"27.1766701,78.0080745",,"27.1766701,78.0080745",9,17,anytime,CGS - HARHUA RING ROAD  CHAURAHA,ritik,6/17/2024 14:00,NULL,6/17/2024 14:00
+11,R12,cgs_harua,atulya,"27.1766701,78.0080745",,"27.1766701,78.0080745",27,45,anytime,CGS - FARIDPUR -SANDAHA  CHAURAHA -GHAZIPUR ROAD -UMRAHA - CHAUBEYPUR -MOLNAPUR - DHAKHWA,ritik,6/17/2024 14:00,NULL,6/17/2024 14:00
+12,R13,cgs_harua,saurav,"27.1766701,78.0080745",,"27.1766701,78.0080745",15,26,anytime,"""CGS - HARHUA RING ROAD  CHAURAHA - SAJOI - BHADOHI ROAD -JANSA  """,ritik,6/17/2024 14:02,NULL,6/17/2024 14:02
+13,R02,upsidc,srm_energy,"27.1766701,78.0080745",,"27.1766701,78.0080745",48,67,anytime,"""KARKHIYAON- RAGHUNATHPUR- BASANI -BADAGAON-KURU-TARAPUR- KAPSETHI -LOHAR  DIH - PURSOTTAMPUR""",ritik,6/18/2024 11:49,NULL,6/18/2024 11:49
+14,R01_R,rameshwar,cgs_harua,,,,49,76,anytime,,ritik,6/18/2024 13:07,NULL,6/18/2024 13:07
+15,R02_R,srm_energy,upsidc,,,,48,67,anytime,,ritik,6/18/2024 13:07,NULL,6/18/2024 13:07
+16,R03_R,sanchetna,upsidc,,,,20,32,anytime,,ritik,6/18/2024 13:08,NULL,6/18/2024 13:08
+17,R04_R,vishnu,cgs_harua,,,,20,28,anytime,,ritik,6/18/2024 13:08,NULL,6/18/2024 13:08
+18,R05_R,mirzamurad,cgs_harua,,,,27,38,anytime,,ritik,6/18/2024 13:10,NULL,6/18/2024 13:10
+19,R06_R,reliance_bp,cgs_harua,,,,39,60,anytime,,ritik,6/18/2024 13:12,NULL,6/18/2024 13:12
+20,R07_R,cholapur,cgs_harua,,,,14,22,anytime,,ritik,6/18/2024 13:12,NULL,6/18/2024 13:12
+21,R08_R,suresh,cgs_harua,,,,42,78,anytime,,ritik,6/18/2024 13:12,NULL,6/18/2024 13:12
+22,R09_R,mansha,cgs_harua,,,,22,34,anytime,,ritik,6/18/2024 13:13,NULL,6/18/2024 13:13
+23,R10_R,lala_auto,upsidc,,,,37,50,anytime,,ritik,6/18/2024 13:13,NULL,6/18/2024 13:13
+24,R11_R,reliance_bp_harua,cgs_harua,,,,9,17,anytime,,ritik,6/18/2024 13:15,NULL,6/18/2024 13:15
+25,R12_R,atulya,cgs_harua,,,,27,45,anytime,,ritik,6/18/2024 13:17,NULL,6/18/2024 13:17
+26,R13_R,saurav,cgs_harua,,,,15,26,anytime,,ritik,6/18/2024 13:18,NULL,6/18/2024 13:18
+27,R14,saurav,mansha,,,,15,30,anytime,,ritik,6/18/2024 13:21,NULL,6/18/2024 13:21
+28,R14_R,mansha,saurav,,,,15,30,anytime,,ritik,6/18/2024 13:21,NULL,6/18/2024 13:21
+29,R15,saurav,rameshwar,,,,40,70,anytime,,ritik,6/18/2024 13:23,NULL,6/18/2024 13:23
+30,R15_R,rameshwar,saurav,,,,40,70,anytime,,ritik,6/18/2024 13:23,NULL,6/18/2024 13:23
+31,R16_R,vishnu,saurav,,,,10,18,anytime,,ritik,6/18/2024 13:25,NULL,6/18/2024 13:25
+32,R16,saurav,vishnu,,,,10,18,anytime,,ritik,6/18/2024 13:26,NULL,6/18/2024 13:26
+33,R17,saurav,mirzamurad,,,,15,25,anytime,,ritik,6/18/2024 13:27,NULL,6/18/2024 13:27
+34,R17_R,mirzamurad,saurav,,,,15,25,anytime,,ritik,6/18/2024 13:27,NULL,6/18/2024 13:27
+35,R18_R,reliance_bp,saurav,,,,28,55,anytime,,ritik,6/18/2024 13:28,NULL,6/18/2024 13:28
+36,R18,saurav,reliance_bp,,,,28,55,anytime,,ritik,6/18/2024 13:28,NULL,6/18/2024 13:28
+37,R19,saurav,suresh,,,,40,75,anytime,,ritik,6/18/2024 13:29,NULL,6/18/2024 13:29
+38,R19_R,suresh,saurav,,,,40,75,anytime,,ritik,6/18/2024 13:29,NULL,6/18/2024 13:29
+39,R20,upsidc,reliance_bp,,,,50,70,anytime,,ritik,6/18/2024 13:30,NULL,6/18/2024 13:30
+40,R20_R,reliance_bp,upsidc,,,,50,110,anytime,,ritik,6/18/2024 13:31,NULL,6/18/2024 13:31
+41,R21_R,vishnu,upsidc,,,,45,105,anytime,,ritik,6/18/2024 13:35,NULL,6/18/2024 13:35
+42,R21,upsidc,vishnu,,,,45,105,anytime,,ritik,6/18/2024 13:36,NULL,6/18/2024 13:36
+43,R22,suresh,rameshwar,,,,10,20,anytime,,ritik,6/18/2024 13:37,NULL,6/18/2024 13:37
+44,R22_R,rameshwar,suresh,,,,10,20,anytime,,ritik,6/18/2024 13:39,NULL,6/18/2024 13:39
+45,R23,atulya,cholapur,,,,25,45,anytime,,ritik,6/18/2024 13:41,NULL,6/18/2024 13:41
+46,R23_R,cholapur,atulya,,,,25,45,anytime,,ritik,6/18/2024 13:43,NULL,6/18/2024 13:43
+47,R24,cgs_harua,shankar,,,,9,15,anytime,,ritik,6/18/2024 13:47,NULL,6/18/2024 13:47
+48,R24_R,shankar,cgs_harua,,,,9,15,anytime,,ritik,6/18/2024 13:47,NULL,6/18/2024 13:47
+49,R25_R,lala_auto,cgs_harua,,,,30,60,anytime,,ritik,6/18/2024 13:48,NULL,6/18/2024 13:48
+50,R25,cgs_harua,lala_auto,,,,30,60,anytime,,ritik,6/18/2024 13:48,NULL,6/18/2024 13:48
+51,R26,shankar,cholapur,,,,7,15,anytime,,ritik,6/18/2024 13:48,NULL,6/18/2024 13:48
+52,R26_R,cholapur,shankar,,,,7,15,anytime,,ritik,6/18/2024 13:49,NULL,6/18/2024 13:49
+53,R27,upsidc,rameshwar,,,,65,120,anytime,,ritik,6/18/2024 13:50,NULL,6/18/2024 13:50
+54,R27_R,rameshwar,upsidc,,,,65,120,anytime,,ritik,6/18/2024 13:50,NULL,6/18/2024 13:50
+55,R28,atulya,shankar,,,,20,35,anytime,,ritik,6/18/2024 13:52,NULL,6/18/2024 13:52
+56,R28_R,shankar,atulya,,,,20,35,anytime,,ritik,6/18/2024 13:52,NULL,6/18/2024 13:52
+57,R29,mansha,vishnu,,,,3,10,anytime,,ritik,6/18/2024 13:53,NULL,6/18/2024 13:53
+58,R29_R,vishnu,mansha,,,,3,10,anytime,,ritik,6/18/2024 13:54,NULL,6/18/2024 13:54
+59,R30,saurav,upsidc,,,,30,60,anytime,,ritik,6/18/2024 16:58,NULL,6/18/2024 16:58
+60,R31,upsidc,shankar,,,,37,70,anytime,,ritik,6/18/2024 16:59,NULL,6/18/2024 16:59
+61,R32,cgs_harua,sanchetna,,,,12,22,anytime,,ritik,6/18/2024 16:59,NULL,6/18/2024 16:59
+62,R33,upsidc,atulya,,,,65,120,anytime,,ritik,6/18/2024 17:00,NULL,6/18/2024 17:00
+63,R34,shankar,mansha,,,,30,50,anytime,,ritik,6/18/2024 17:01,NULL,6/18/2024 17:01
+64,R35,reliance_bp_harua,vishnu,,,,25,45,anytime,,ritik,6/18/2024 17:01,NULL,6/18/2024 17:01
+65,R36,reliance_bp_harua,reliance_bp,,,,37,70,anytime,,ritik,6/18/2024 17:02,NULL,6/18/2024 17:02
+66,R37,reliance_bp_harua,mansha,,,,27,45,anytime,,ritik,6/18/2024 17:02,NULL,6/18/2024 17:02
+67,R38,upsidc,cholapur,,,,45,80,anytime,,ritik,6/18/2024 17:04,NULL,6/18/2024 17:04
+68,R39,upsidc,mansha,,,,45,75,anytime,,ritik,6/18/2024 17:09,NULL,6/18/2024 17:09
+69,R40,upsidc,reliance_bp_harua,,,,21,30,anytime,,ritik,7/17/2024 8:03,NULL,7/17/2024 8:03
+70,R41,cgs_harua,srm_energy,,,,30,70,anytime,,ritik,7/28/2024 5:52,NULL,7/28/2024 5:52
+71,R42,cgs_harua,shree_hp,,,,18,45,anytime,,ritik,7/28/2024 5:52,NULL,7/28/2024 5:52
+72,R43,reliance_bp_harua,sanchetna,,,,4,15,anytime,,ritik,6/18/2024 16:59,NULL,6/18/2024 16:59
+73,R44,reliance_bp_harua,suresh,,,,43,95,anytime,,ritik,6/18/2024 16:59,NULL,6/18/2024 16:59
+74,R45,cholapur,shree_hp,,,,20,50,anytime,,a,6/18/2024 16:59,NULL,6/18/2024 16:59
+75,R46,atulya,shree_hp,,,,20,50,anytime,,a,6/18/2024 16:59,NULL,6/18/2024 16:59
+76,R47,upsidc,shree_hp,,,,20,50,anytime,,a,6/18/2024 16:59,NULL,6/18/2024 16:59
+77,R48,upsidc,mirzamurad,,,,50,75,anytime,,a,6/18/2024 16:59,NULL,6/18/2024 16:59
+78,R49,reliance_bp_harua,lala_auto,,,,28,70,anytime,,ritik,6/18/2024 13:48,NULL,6/18/2024 13:48
+79,R50,reliance_bp_harua,srm_energy,,,,37,80,anytime,,ritik,6/18/2024 13:48,NULL,6/18/2024 13:48
+80,R51,upsidc,suresh,,,,65,140,anytime,,ritik,6/18/2024 13:48,NULL,6/18/2024 13:48
+81,test_route,cgs_harua,rameshwar,"25.3898802,82.9342880",,"25.2882772,83.0338120",100,100,anytime,Testing in KT,ritik,8/2/2025 11:58,NULL,8/2/2025 11:58
