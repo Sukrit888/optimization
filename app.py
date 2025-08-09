@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import math
+import re
 from datetime import timedelta
 from ortools.constraint_solver import pywrapcp, routing_enums_pb2
 
@@ -12,7 +13,6 @@ DEFAULT_VEHICLE_CAPACITY = 4500
 SERVICE_TIME_MIN = 10
 PREP_TIME_MIN = 45
 MAX_TRIPS_PER_VEHICLE = 3
-TIME_WINDOW_SLACK = 120
 HORIZON_MINUTES = 24 * 60
 WEEKDAY_FORECAST_WEIGHT = 0.2
 
@@ -20,10 +20,15 @@ WEEKDAY_FORECAST_WEIGHT = 0.2
 # HELPER FUNCTIONS
 # =============================
 def find_col(df, keywords):
-    keys = [k.lower() for k in keywords]
-    for c in df.columns:
-        if any(k in c.lower() for k in keys):
-            return c
+    """
+    Find the first column in df whose normalized name contains any of the given keywords.
+    Normalization: lowercase, remove spaces, underscores, special chars.
+    """
+    normalized_keywords = [re.sub(r'[^a-z0-9]', '', k.lower()) for k in keywords]
+    for col in df.columns:
+        norm_col = re.sub(r'[^a-z0-9]', '', col.lower())
+        if any(k in norm_col for k in normalized_keywords):
+            return col
     return None
 
 def symmetrize_distance(df, from_col, to_col, dist_col):
@@ -53,10 +58,11 @@ def load_data():
 # VRP SOLVER FUNCTION
 # =============================
 def run_vrp_with_prep(df_st, df_routes, df_alloc):
+    # Detect key columns
     station_id_col = find_col(df_st, ["dbs", "station", "station_id"])
-    demand_col = find_col(df_st, ["demand", "quantity"])
+    demand_col = find_col(df_st, ["demand", "quantity", "order", "sales", "cng"])
     rop_col = find_col(df_st, ["rop", "reorder"])
-    time_col = find_col(df_st, ["time", "transaction", "datetime"])
+    time_col = find_col(df_st, ["time", "transaction", "datetime", "date"])
     time_weight_col = find_col(df_st, ["time_weight"])
     weekday_forecast_col = find_col(df_st, ["weekday_forecast", "forecast"])
 
