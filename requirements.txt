@@ -2,3 +2,6 @@ streamlit
 pandas
 numpy
 ortools
+matplotlib
+plotly
+python-dateutil
